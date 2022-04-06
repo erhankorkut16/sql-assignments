@@ -2,6 +2,7 @@
 	SELECT
 ===================================================*/
 
+
 /* tracks tablosundaki track isimlerini (name) sorgulayınız */
  SELECT name FROM tracks;
 
