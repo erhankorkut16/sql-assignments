@@ -1,4 +1,4 @@
--- 1.How many tracks does each album have? Your solution should include Album id and its number of tracks sorted from highest to lowest
+--- 1.How many tracks does each album have? Your solution should include Album id and its number of tracks sorted from highest to lowest
 select * from tracks;
 select AlbumId,count(*) as number_of_tracks 
 from tracks group by AlbumId order by number_of_tracks DESC; 
